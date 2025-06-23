@@ -8,4 +8,4 @@ done
 
 echo "loop ended"
 
-# for until loop use until in place of while
+# for until loop use until in place of while and use -ge in place of -le 
