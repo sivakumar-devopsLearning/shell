@@ -27,3 +27,8 @@ echo "current date is : $current_date"
 
 current_time=$(date +%H:%M)
 echo "time is $current_time"
+
+#readonly keyword
+readonly pi=3.141
+pi=5
+echo "value of pi is : $pi"
