@@ -1,0 +1,37 @@
+q1)what is the diff b/w #!/bin/bash & #!/bin/sh
+    historically, /bin/sh pointed to the original Bourne Shell. Today, on most Linux and Unix-like systems, /bin/sh is typically a symbolic link to  /bin/bash, but in recent times most os by default pointing to /bin/dash, so need to use /bin/bash 
+q2)what is the o/p 
+    $ date | echo "print date"
+        here date sends o/p to stdin , where as | receives o/p only if it wont go to stdin
+        
+        stdin, stderr, stdout are some channels in every vm
+
+q3)shell script to print numbers didvide by 3 & 5 and not 15
+q4) write a script to print number of s in "missippisii"
+q5) crontab in linux? exapmles 
+q6) vim -r teaet.txt --> opens in read only mode 
+q7) soft link and hard link 
+        ex: soft link is like alias , if we delete original it will delete soft link also
+            python3 -> python
+        hard link : is like copy , if original deleted hard link will be present 
+q8) diff b/w break and continuw statements?
+    continue -> skip this and continue with next lines 
+    break -> break shere and exit 
+q9) disadvantages of shell script 
+q10) types of loops -> for, while, do while 
+q11) bash is dynamically types
+q12) n/w debugging commands:
+        $ traceroute google.com 
+        $ tracepath google.com 
+q13) sort list of names in a file?
+        $ sort 
+q14) how you manage logs?
+        logrotate (gzip, zip)
+
+
+
+trap command:
+==============
+it traps signals of linux 
+    $ trap "echo so not use the cntrl+c" SIGINT
+    $ trap "rm -rf *" SIGINT
