@@ -14,9 +14,9 @@ sum_nums() {
     local num1="$1"
     local num2="$2"
     local sum=$(( num1+num2 ))
-    echo "sum inside fun: $sum"
+    echo "sum of given numbs is : $sum "
     return $sum
 }
 
 result=$(sum_nums 10 20)
-echo "sum outside fun: $result"
+echo "result is : $result"
