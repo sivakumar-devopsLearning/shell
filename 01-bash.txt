@@ -35,3 +35,8 @@ trap command:
 it traps signals of linux 
     $ trap "echo so not use the cntrl+c" SIGINT
     $ trap "rm -rf *" SIGINT
+
+
+
+
+=============shell part-1 1:07 =================
