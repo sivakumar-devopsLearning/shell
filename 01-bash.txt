@@ -1,3 +1,6 @@
+Array is a similar kind of items
+
+
 q1)what is the diff b/w #!/bin/bash & #!/bin/sh
     historically, /bin/sh pointed to the original Bourne Shell. Today, on most Linux and Unix-like systems, /bin/sh is typically a symbolic link to  /bin/bash, but in recent times most os by default pointing to /bin/dash, so need to use /bin/bash 
 q2)what is the o/p 
