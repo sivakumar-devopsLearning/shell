@@ -2,11 +2,11 @@
 
 fruits=("banana" "mango" "cherry" "papaya" "spota" "guva" "dates" "orange")
 echo "all fruits are: ${fruits[@]} "
-echo "first fruit is ${fruit[0]} "
+echo "first fruit is ${fruits[0]} "
 
 ###############################################
 
-for food in "${fruits[@]}" : do
+for food in "${fruits[@]}"; do
     echo "fruit is: $food"
 done 
 
