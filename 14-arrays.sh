@@ -16,16 +16,17 @@ done
 
 fruits11=("banana" "mango" "cherry")
 fruits11+=("dates" "orange")
+echo "after adding  some fruits: ${fruits11[@]}"
 length=${#fruits11[@]}
 
 echo "lenghth is: $length"
 
-for food11 in "${fruits11[@]}": do
+for food11 in "${fruits11[@]}"; do
   echo "all fruits are: $food11"
 done
  
 unset fruits11[1]
-echo "after removing some fruits: $fruits11"
+echo "after removing some fruits: ${fruits11[@]}"
 
 length=${#fruits11[@]}
 
