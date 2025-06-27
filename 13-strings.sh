@@ -1,8 +1,8 @@
 #! /bin/bash
 
 
-string1="Hello, world! are you doing good"
-substring1=${string:7:5}
+string1="Hello,  world! are you doing good"
+substring1=${string1:7:5}
 # word extract "world!"
 echo "substring is $substring1"
 
